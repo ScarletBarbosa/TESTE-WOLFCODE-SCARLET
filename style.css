@@ -1,0 +1,44 @@
+.formulario {
+    width: 100%;
+    max-width: 300px;
+    padding: 10%;
+    background-color: silver;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+}
+
+form input[type="text"] {
+    width: 200px;
+    margin-top: 10px;
+    padding: 5px;
+    outline: 0;
+}
+
+form input[type="email"] {
+    width: 200px;
+    margin-top: 10px;
+    padding: 5px;
+    outline: 0;
+}
+
+form input[type="password"] {
+    width: 200px;
+    margin-top: 10px;
+    padding: 5px;
+    outline: 0;
+}
+
+form input[type="submit"] {
+    width: 200px;
+    margin-top: 10px;
+    padding: 5px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.formulario h1 {
+    color: blue;
+}
