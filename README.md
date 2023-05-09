@@ -17,31 +17,34 @@ Tabela 'users' do banco de dados:
 
 HTML 
 
-a) O que é HTML? Qual a sua importância no desenvolvimento:
+a) O que é HTML? Qual a sua importância no desenvolvimento web?
 HTML é a sigla para (HyperText Markup Language). O HTML não é uma limguagem de programação, sendo uma linguagem de marcação de textos, possiblitando a estruturação de seções, elementos, imagens, seções dentre outros.
 Dentre algumas das vantagens do HTML podemos citar: código aberto, funcionabilidade e suporte em todos os navegadores, amplamente difundido, diversidade de recursos, facil integracao com back-end.
   
-web? b) Quais são as principais tags HTML utilizadas para definir a
+b) Quais são as principais tags HTML utilizadas para definir a estrutura de uma página web?
 
-estrutura de uma página web?
+CSS 
 
-CSS a) O que é CSS? Qual a sua importância no desenvolvimento web? b)
-Qual é a diferença entre classes e IDs em CSS? Quando é mais adequado
+a) O que é CSS? Qual a sua importância no desenvolvimento web? 
+b) Qual é a diferença entre classes e IDs em CSS? Quando é mais adequado usar uma ou outra?
 
-usar uma ou outra?
+JavaScript 
 
-JavaScript a) O que é JavaScript? Qual a sua importância no
-desenvolvimento web? b) Qual é a diferença entre variáveis var, let e
-const em JavaScript? c) Explique a diferença entre == e === em
+a) O que é JavaScript? Qual a sua importância no desenvolvimento web? 
+b) Qual é a diferença entre variáveis var, let e const em JavaScript? c) Explique a diferença entre == e === em JavaScript.
 
-JavaScript.
+PHP 
 
-PHP a) O que é PHP? Qual a sua importância no desenvolvimento web? b)
-Qual é a diferença entre uma variável de escopo global e uma variável de
-escopo local em PHP? c) Qual é a função do operador ternário em PHP?
-Git a) O que é Git? Qual a sua importância no desenvolvimento de
-software? b) Qual é a diferença entre git pull e git fetch? c) O que é o git merge e quando é necessário utilizá-lo?
+a) O que é PHP? Qual a sua importância no desenvolvimento web? 
+b) Qual é a diferença entre uma variável de escopo global e uma variável de escopo local em PHP? c) Qual é a função do operador ternário em PHP?
 
-MySQL a) O que é MySQL? Qual a sua importância no desenvolvimento
-web? b) Qual é a diferença entre INNER JOIN e OUTER JOIN em MySQL?
+Git 
+
+a) O que é Git? Qual a sua importância no desenvolvimento de software? 
+b) Qual é a diferença entre git pull e git fetch? c) O que é o git merge e quando é necessário utilizá-lo?
+
+MySQL 
+
+a) O que é MySQL? Qual a sua importância no desenvolvimento web? 
+b) Qual é a diferença entre INNER JOIN e OUTER JOIN em MySQL?
 c) Como funciona a cláusula WHERE em uma consulta SQL?
