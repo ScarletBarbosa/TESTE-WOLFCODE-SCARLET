@@ -8,8 +8,8 @@
 
     spl_autoload_register($print);
 
-    define('HOST','localhost');
-    define('DATABASE','sys');
+    define('HOST','127.0.0.1');
+    define('DATABASE','wolfcode');
     define('USER','root');
-    define('PASSWORD','882545')
+    define('PASSWORD','')
 ?>
