@@ -13,9 +13,9 @@ Tela de edição dos dados e inserção no banco de dados:
 Tabela 'users' do banco de dados:
 ![image](https://github.com/ScarletBarbosa/TESTE-WOLFCODE-SCARLET/assets/55628779/3751dadc-ba07-4f81-b331-788795a1462f)
 
-#Respostas questionário:
+# Respostas questionário:
 
-HTML 
+## HTML 
 
 a) O que é HTML? Qual a sua importância no desenvolvimento web?
 HTML é a sigla para (HyperText Markup Language). O HTML não é uma limguagem de programação, sendo uma linguagem de marcação de textos, possiblitando a estruturação de seções, elementos, imagens, seções dentre outros.
@@ -24,6 +24,7 @@ Dentre algumas das vantagens do HTML podemos citar: código aberto, funcionabili
 b) Quais são as principais tags HTML utilizadas para definir a estrutura de uma página web?
 Dentre as principais podemos listar:
 
+```
 * <header></header>
 * <main></main>
 * <footer></footer>
@@ -32,13 +33,14 @@ Dentre as principais podemos listar:
 * <aside></aside>
 * <nav></nav>
 * <div></div>
+```
 
-CSS 
+## CSS 
 
 a) O que é CSS? Qual a sua importância no desenvolvimento web? 
 b) Qual é a diferença entre classes e IDs em CSS? Quando é mais adequado usar uma ou outra?
 
-JavaScript 
+## JavaScript 
 
 a) O que é JavaScript? Qual a sua importância no desenvolvimento web? 
 b) Qual é a diferença entre variáveis var, let e const em JavaScript? c) Explique a diferença entre == e === em JavaScript.
