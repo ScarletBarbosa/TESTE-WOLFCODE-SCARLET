@@ -37,7 +37,9 @@ Dentre as principais podemos listar:
 
 ## CSS 
 
-a) O que é CSS? Qual a sua importância no desenvolvimento web? 
+a) O que é CSS? Qual a sua importância no desenvolvimento web?
+> CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para definir a aparência e o layout de elementos em uma página da web. Sua importância no desenvolvimento web é crucial, pois permite separar a estrutura do conteúdo HTML da sua apresentação visual. Com o CSS, é possível personalizar cores, fontes, tamanhos, espaçamentos e outros aspectos visuais, proporcionando uma experiência estética e consistente aos usuários. Além disso, o CSS facilita a manutenção e o reuso de estilos, tornando o desenvolvimento mais eficiente.
+
 b) Qual é a diferença entre classes e IDs em CSS? Quando é mais adequado usar uma ou outra?
 
 ## JavaScript 
