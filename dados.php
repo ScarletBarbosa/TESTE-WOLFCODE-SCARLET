@@ -49,7 +49,7 @@ while($registro = mysqli_fetch_array($sql))
 
 ?>
 </table>
-    <a class="" href="index.php"> << Voltar ao Cadastro</a><br>
+    <a class="" href="index.html"> << Voltar ao Cadastro</a><br>
 </div>
 </body>
 </html>
