@@ -22,6 +22,16 @@ HTML é a sigla para (HyperText Markup Language). O HTML não é uma limguagem d
 Dentre algumas das vantagens do HTML podemos citar: código aberto, funcionabilidade e suporte em todos os navegadores, amplamente difundido, diversidade de recursos, facil integracao com back-end.
   
 b) Quais são as principais tags HTML utilizadas para definir a estrutura de uma página web?
+Dentre as principais podemos listar:
+
+* <header></header>
+* <main></main>
+* <footer></footer>
+* <section></section>
+* <article></article>
+* <aside></aside>
+* <nav></nav>
+* <div></div>
 
 CSS 
 
