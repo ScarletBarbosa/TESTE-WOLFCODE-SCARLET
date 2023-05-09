@@ -18,7 +18,7 @@
 ## HTML 
 
 a) O que é HTML? Qual a sua importância no desenvolvimento web?
-HTML é a sigla para (HyperText Markup Language). O HTML não é uma limguagem de programação, sendo uma linguagem de marcação de textos, possiblitando a estruturação de seções, elementos, imagens, seções dentre outros.
+> HTML é a sigla para (HyperText Markup Language). O HTML não é uma limguagem de programação, sendo uma linguagem de marcação de textos, possiblitando a estruturação de seções, elementos, imagens, seções dentre outros.
 Dentre algumas das vantagens do HTML podemos citar: código aberto, funcionabilidade e suporte em todos os navegadores, amplamente difundido, diversidade de recursos, facil integracao com back-end.
   
 b) Quais são as principais tags HTML utilizadas para definir a estrutura de uma página web?
