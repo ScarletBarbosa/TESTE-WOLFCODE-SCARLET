@@ -25,14 +25,14 @@ b) Quais são as principais tags HTML utilizadas para definir a estrutura de uma
 Dentre as principais podemos listar:
 
 ```
-* <header></header>
-* <main></main>
-* <footer></footer>
-* <section></section>
-* <article></article>
-* <aside></aside>
-* <nav></nav>
-* <div></div>
+ <header></header>      - Tag que define o cabeçalho da página.
+ <body></body>          - Tag do corpo da página.
+ <main></main>          - Tag do conteúdo principal do corpo <body> da página.
+ <footer></footer>      - Tag de rodapé.
+ <section></section>    - Tag que definem a seção de uma página.
+ <article></article>    - Tag definem um artigo, são utilizadas para separar o conteúdo da sua página.
+ <nav></nav>            - Tag que define conteúdo de navegação, menus.
+ <div></div>            - Tag definem as divisões de uma página.
 ```
 
 ## CSS 
