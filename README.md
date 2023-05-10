@@ -51,8 +51,26 @@ b) Qual é a diferença entre classes e IDs em CSS? Quando é mais adequado usar
 
 ## JavaScript 
 
-a) O que é JavaScript? Qual a sua importância no desenvolvimento web? 
-b) Qual é a diferença entre variáveis var, let e const em JavaScript? c) Explique a diferença entre == e === em JavaScript.
+a) O que é JavaScript? Qual a sua importância no desenvolvimento web?
+> JavaScript é uma linguagem de programação utilizada no desenvolvimento web para tornar as páginas interativas e dinâmicas. Sua importância é fundamental, pois permite adicionar funcionalidades como validação de formulários, animações, interações em tempo real e atualizações de conteúdo sem precisar recarregar a página. Com o JavaScript, é possível criar experiências mais envolventes e responsivas para os usuários.
+
+b) Qual é a diferença entre variáveis var, let e const em JavaScript? 
+> Em JavaScript, variáveis são usadas para armazenar valores. A diferença entre var, let e const é a forma como cada uma delas trata o escopo e a reatribuição de valores.
+
+> Var é uma variável de escopo global ou de função e permite a reatribuição de valores.
+
+> Let é uma variável de escopo de bloco e permite reatribuição de valores.
+
+> Const é uma variável de escopo de bloco e não permite a reatribuição de valores, tornando-a ideal para constantes.
+
+c) Explique a diferença entre == e === em JavaScript.
+>Em JavaScript, == e === são operadores de comparação usados para verificar igualdade entre valores.
+
+> == verifica a igualdade de valores, permitindo conversões de tipos implícitas. Por exemplo, 2 == '2' seria considerado verdadeiro, pois o operador == converte o valor string para um número e os compara.
+
+> === verifica a igualdade de valores e tipos estritos, sem fazer conversões implícitas. Por exemplo, 2 === '2' seria considerado falso, pois o operador === compara os valores e tipos exatos, sem realizar conversões.
+
+> Em geral, é recomendado usar o operador ===, pois ele faz comparações mais precisas e evita resultados inesperados devido a conversões automáticas de tipos.
 
 ## PHP 
 
