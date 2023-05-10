@@ -41,6 +41,13 @@ a) O que é CSS? Qual a sua importância no desenvolvimento web?
 > CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para definir a aparência e o layout de elementos em uma página da web. Sua importância no desenvolvimento web é crucial, pois permite separar a estrutura do conteúdo HTML da sua apresentação visual. Com o CSS, é possível personalizar cores, fontes, tamanhos, espaçamentos e outros aspectos visuais, proporcionando uma experiência estética e consistente aos usuários. Além disso, o CSS facilita a manutenção e o reuso de estilos, tornando o desenvolvimento mais eficiente.
 
 b) Qual é a diferença entre classes e IDs em CSS? Quando é mais adequado usar uma ou outra?
+> As classes e os IDs são seletores usados em CSS para identificar e estilizar elementos HTML. A diferença entre eles é que as classes podem ser aplicadas a múltiplos elementos, enquanto os IDs são únicos e devem ser usados apenas uma vez por página.
+
+As classes são mais adequadas quando você deseja aplicar um estilo a vários elementos semelhantes em uma página, como um grupo de botões ou parágrafos. Elas permitem reutilização e flexibilidade.
+
+Os IDs são mais apropriados para identificar elementos específicos e aplicar estilos exclusivos a eles. É comum usar IDs para elementos como cabeçalhos, rodapés ou seções importantes, onde o estilo precisa ser exclusivo.
+
+Em resumo, use classes quando desejar aplicar estilos a vários elementos semelhantes e IDs quando precisar estilizar um único elemento de forma exclusiva.
 
 ## JavaScript 
 
