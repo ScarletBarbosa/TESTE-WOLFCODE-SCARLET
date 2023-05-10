@@ -10,35 +10,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="script" type="JavaScript" href="script.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <title>Cadastro Banco de Dados | Scarlet Barbosa</title>
 </head>
 
-<script> // Funcao JavaScript que valida os dados do formulario!
-function validar(){
-
-    var nome = formulario.name;
-    var email = formulario.email;
-    var password = formulario.password;
-
-    if (nome.value == '') {
-        alert('Nome não informado!');
-        nome.focus();
-    }else if (email.value == '') {
-        alert('E-mail não informado!');
-        email.focus();
-    }else if (password.lenght < 6) {
-        alert('A senha deve conter o menos 6 digitos!');
-        password.focus();
-    }
-}
-</script>
 <body>
     <div class="page">
             <form method="POST" class="formLogin" name="formulario" action="valida.php">
-                <h1>Cadastro de Dados WolfCode:</h1>
+                <h1>Cadastro WolfCode:</h1>
                 <p>Preencha os dados abaixo</p>
                     <label>Nome: </label><input type="text" placeholder="Insira seu nome completo..." name="name"><br>
                     <label>E-mail: </label><input type="email" placeholder="Insira seu e-mail..." name="email" autofocus="true" ><br>

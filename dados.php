@@ -19,7 +19,6 @@
                 <th>Atualizar</th>
                 <th>Excluir</th>
             </tr>
-
 <?php
 //iniciando a conexão com o banco de dados 
 $conexao = mysqli_connect("127.0.0.1", "root", "");
