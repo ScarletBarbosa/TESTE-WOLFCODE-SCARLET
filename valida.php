@@ -14,7 +14,7 @@ if($name == ''){
 }else if($email == ''){
     Form::alert('erro','o email está vazio!');
    // header("Location: index.html");
-}else if($password < 6){
+}else if(strlen($password) < 6){
     Form::alert('erro','a senha está vazia!');
     header("Location: index.html");
 }else{
