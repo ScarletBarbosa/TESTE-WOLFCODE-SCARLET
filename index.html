@@ -19,13 +19,13 @@
 
 <body>
     <div class="page">
-            <form method="POST" class="formLogin" name="formulario" action="valida.php">
+            <form method="POST" class="formLogin" name="formulario" action="valida.php" onsubmit="return valida()">
                 <h1>Cadastro WolfCode:</h1>
                 <p>Preencha os dados abaixo</p>
                     <label>Nome: </label><input type="text" placeholder="Insira seu nome completo..." name="name"><br>
                     <label>E-mail: </label><input type="email" placeholder="Insira seu e-mail..." name="email" autofocus="true" ><br>
-                    <label>Senha: </label><input type="password" placeholder="Cadastre uma nova senha de acesso..." name="password"><br>
-                    <input type="submit" name="enviar" value="cadastrar" class="btn" onclick="validar()"><br>
+                    <label>Senha: </label><input type="password" placeholder="Cadastre uma nova senha de acesso..." name="password" minlength="6"><br>
+                    <input type="submit" name="enviar" value="cadastrar" class="btn"><br>
                     <a href="dados.php">Visualizar Registros >></a><br>
                     <div><input type="hidden" name="form" value="f_form"></div>
             </form>

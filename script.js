@@ -1,9 +1,9 @@
-function validar(){
+function valida(){
 
     var nome = formulario.name;
     var email = formulario.email;
     var password = formulario.password;
-
+    
     if (nome.value == '') {
         alert('Nome não informado!');
         nome.focus();

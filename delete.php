@@ -20,7 +20,7 @@ $resultado = mysqli_query($conexao,$del);
 if(mysqli_affected_rows($conexao)){
     $_SESSION['msg'] = "<p style='color:green;'>Usuario apagado!</p>";
     header("Location: dados.php");
-}else{
+  }else{
     $_SESSION['msg'] = "<p style='color:red;'>Erro ao deletar!</p>";
     header("Location: dados.php");
 }
