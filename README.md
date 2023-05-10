@@ -1,4 +1,4 @@
-# Resoluçãoo Teste WolfCode
+# Resolução Teste WolfCode
 
 
 ### Tela Inicial onde e feito a inserção dos dados pelo usuario e em seguida enviado ao banco de dados:
