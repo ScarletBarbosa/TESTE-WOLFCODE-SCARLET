@@ -16,15 +16,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <title>Cadastro Banco de Dados | Scarlet Barbosa</title>
 </head>
+<script> // Validação do formulario com Javascript:
+    function validarFormulario() {
+        var nome = document.forms["formulario"]["name"].value;
+        var email = document.forms["formulario"]["email"].value;
+        var senha = document.forms["formulario"]["password"].value;
 
+        if (nome === "") {
+            alert("O campo nome é obrigatório");
+            return false;
+        }
+
+        if (email === "") {
+            alert("O campo email é obrigatório");
+            return false;
+        }
+
+        if (senha.length < 6) {
+            alert("A senha deve ter pelo menos 6 caracteres");
+            return false;
+        }
+    }
+</script>
 <body>
     <div class="page">
-            <form method="POST" class="formLogin" name="formulario" action="valida.php" onsubmit="return valida()">
+            <form method="POST" class="formLogin" name="formulario" action="valida.php" onsubmit="return validarFormulario()">
                 <h1>Cadastro WolfCode:</h1>
                 <p>Preencha os dados abaixo</p>
                     <label>Nome: </label><input type="text" placeholder="Insira seu nome completo..." name="name"><br>
-                    <label>E-mail: </label><input type="email" placeholder="Insira seu e-mail..." name="email" autofocus="true" ><br>
-                    <label>Senha: </label><input type="password" placeholder="Cadastre uma nova senha de acesso..." name="password" minlength="6"><br>
+                    <label>E-mail: </label><input type="email" placeholder="Insira seu e-mail..." name="email" autofocus="true"><br>
+                    <label>Senha: </label><input type="password" placeholder="Cadastre uma nova senha de acesso..." name="password"><br>
                     <input type="submit" name="enviar" value="cadastrar" class="btn"><br>
                     <a href="dados.php">Visualizar Registros >></a><br>
                     <div><input type="hidden" name="form" value="f_form"></div>
