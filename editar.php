@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edicao de dados Scarlet Barbosa</title>
+    <title>Edição de dados | Scarlet Barbosa</title>
 </head>
 <body>
 <?php
