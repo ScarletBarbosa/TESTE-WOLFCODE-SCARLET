@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edicao Usuario</title>
+    <title>Edicão Usuario</title>
 </head>
 <body>
 
@@ -26,7 +26,7 @@ $result_user = "INSERT INTO users WHERE id='11'";
 ?>
     <div class="page">
     <form action="" method="post" class="formLogin">
-        <h1>Edicao de Cadastro</h1>
+        <h1>Edição de Cadastro</h1>
         <p>Preencha o formulario com os novos dados</p>
         
         <label>Nome</label><input type="text" name="nameEdit" placeholder="Novo nome..." value="<?php echo $coluna_usuario['name'];?>"><br>
