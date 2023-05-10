@@ -85,12 +85,32 @@ c) Qual é a função do operador ternário em PHP?
 
 ## Git 
 
-a) O que é Git? Qual a sua importância no desenvolvimento de software? 
-b) Qual é a diferença entre git pull e git fetch? 
+a) O que é Git? Qual a sua importância no desenvolvimento de software?
+> Git é um sistema de controle de versão distribuído amplamente utilizado no desenvolvimento de software. Ele permite que os desenvolvedores rastreiem e gerenciem as alterações feitas no código-fonte ao longo do tempo. A importância do Git reside na sua capacidade de facilitar o trabalho colaborativo, o controle de versões, a criação de branches para desenvolvimento paralelo, a fusão de alterações e o controle preciso do histórico do projeto. Ele proporciona maior eficiência, rastreabilidade e segurança durante o desenvolvimento de software.
+
+b) Qual é a diferença entre git pull e git fetch?
+> Git pull combina as ações de git fetch e git merge. Ele busca as atualizações do repositório remoto e incorpora essas alterações automaticamente no branch atual.
+
+> Git fetch apenas busca as atualizações do repositório remoto, mas não incorpora essas alterações automaticamente. Isso permite visualizar as alterações antes de decidir como integrá-las ao branch local.
+
+> Em resumo, git pull busca e incorpora as alterações automaticamente, enquanto git fetch apenas busca as alterações, permitindo uma integração manual e mais controlada.
+
 c) O que é o git merge e quando é necessário utilizá-lo?
+> Git merge é um comando que integra as alterações de um branch em outro. É necessário utilizá-lo quando se deseja combinar o trabalho de diferentes branches, unindo as alterações e criando um novo commit com as modificações combinadas. Isso é útil quando se trabalha em paralelo em diferentes funcionalidades ou quando se deseja incorporar uma ramificação de desenvolvimento ao branch principal.
 
 ## MySQL 
 
-a) O que é MySQL? Qual a sua importância no desenvolvimento web? 
+a) O que é MySQL? Qual a sua importância no desenvolvimento web?
+> MySQL é um sistema de gerenciamento de banco de dados relacional amplamente utilizado no desenvolvimento web. Ele permite armazenar, organizar e acessar dados de forma eficiente. Sua importância no desenvolvimento web reside na sua capacidade de lidar com grandes volumes de dados, fornecer consultas rápidas e suportar múltiplos usuários simultâneos. O MySQL é uma peça fundamental para o armazenamento e recuperação de informações em aplicativos web, como sites e sistemas de gerenciamento de conteúdo.
+
 b) Qual é a diferença entre INNER JOIN e OUTER JOIN em MySQL?
+>INNER JOIN e OUTER JOIN são tipos de operações de junção utilizadas no SQL para combinar dados de duas ou mais tabelas.
+
+> INNER JOIN retorna apenas os registros que têm correspondência nas duas tabelas, ou seja, apenas os registros que atendem à condição de junção especificada.
+
+> OUTER JOIN, por outro lado, retorna todos os registros de uma tabela, mesmo que não haja correspondência na outra tabela. Existem três tipos de OUTER JOIN: LEFT JOIN, RIGHT JOIN e FULL JOIN.
+
+> Em resumo, INNER JOIN retorna apenas registros correspondentes, enquanto OUTER JOIN retorna todos os registros, mesmo que não haja correspondência em uma tabela.
+
 c) Como funciona a cláusula WHERE em uma consulta SQL?
+> A cláusula WHERE é usada em uma consulta SQL para filtrar os resultados com base em uma condição específica. Ela especifica os critérios que os registros devem atender para serem retornados na consulta. A cláusula WHERE pode conter operadores de comparação, como igual (=), maior que (>), menor que (<), entre outros, e também operadores lógicos, como AND e OR. Ela ajuda a refinar os resultados da consulta, exibindo apenas os registros que atendem aos critérios definidos.
