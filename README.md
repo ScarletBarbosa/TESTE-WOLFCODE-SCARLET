@@ -74,13 +74,20 @@ c) Explique a diferença entre == e === em JavaScript.
 
 ## PHP 
 
-a) O que é PHP? Qual a sua importância no desenvolvimento web? 
-b) Qual é a diferença entre uma variável de escopo global e uma variável de escopo local em PHP? c) Qual é a função do operador ternário em PHP?
+a) O que é PHP? Qual a sua importância no desenvolvimento web?
+> PHP é uma linguagem de programação utilizada no desenvolvimento web para criar sites dinâmicos e interativos. Sua importância é fundamental, pois permite interagir com bancos de dados, enviar e-mails, criar formulários, gerar conteúdo dinâmico e muito mais. Com o PHP, é possível criar páginas web dinâmicas e personalizadas de forma rápida e eficiente.
+
+b) Qual é a diferença entre uma variável de escopo global e uma variável de escopo local em PHP? 
+> Uma variável de escopo global em PHP é definida fora de qualquer função e pode ser acessada e modificada em qualquer parte do código. Já uma variável de escopo local é definida dentro de uma função e só pode ser acessada e modificada dentro dessa função. Variáveis globais podem ter um escopo mais amplo e podem ser usadas em todo o código, enquanto as variáveis locais são restritas à função em que foram definidas.
+
+c) Qual é a função do operador ternário em PHP?
+> O operador ternário em PHP é uma forma condicional compacta que permite atribuir valores com base em uma condição. Ele possui a seguinte sintaxe: "condição ? valor_se_verdadeiro : valor_se_falso". Dependendo da condição, o operador ternário retorna um dos dois valores especificados. É uma alternativa concisa ao uso do "if" e é útil para tomar decisões simples e atribuir valores com base em uma única condição.
 
 ## Git 
 
 a) O que é Git? Qual a sua importância no desenvolvimento de software? 
-b) Qual é a diferença entre git pull e git fetch? c) O que é o git merge e quando é necessário utilizá-lo?
+b) Qual é a diferença entre git pull e git fetch? 
+c) O que é o git merge e quando é necessário utilizá-lo?
 
 ## MySQL 
 
