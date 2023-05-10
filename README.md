@@ -43,11 +43,11 @@ a) O que é CSS? Qual a sua importância no desenvolvimento web?
 b) Qual é a diferença entre classes e IDs em CSS? Quando é mais adequado usar uma ou outra?
 > As classes e os IDs são seletores usados em CSS para identificar e estilizar elementos HTML. A diferença entre eles é que as classes podem ser aplicadas a múltiplos elementos, enquanto os IDs são únicos e devem ser usados apenas uma vez por página.
 
-As classes são mais adequadas quando você deseja aplicar um estilo a vários elementos semelhantes em uma página, como um grupo de botões ou parágrafos. Elas permitem reutilização e flexibilidade.
+> As classes são mais adequadas quando você deseja aplicar um estilo a vários elementos semelhantes em uma página, como um grupo de botões ou parágrafos. Elas permitem reutilização e flexibilidade.
 
-Os IDs são mais apropriados para identificar elementos específicos e aplicar estilos exclusivos a eles. É comum usar IDs para elementos como cabeçalhos, rodapés ou seções importantes, onde o estilo precisa ser exclusivo.
+> Os IDs são mais apropriados para identificar elementos específicos e aplicar estilos exclusivos a eles. É comum usar IDs para elementos como cabeçalhos, rodapés ou seções importantes, onde o estilo precisa ser exclusivo.
 
-Em resumo, use classes quando desejar aplicar estilos a vários elementos semelhantes e IDs quando precisar estilizar um único elemento de forma exclusiva.
+> Em resumo, use classes quando desejar aplicar estilos a vários elementos semelhantes e IDs quando precisar estilizar um único elemento de forma exclusiva.
 
 ## JavaScript 
 
